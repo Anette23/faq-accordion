@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+p {
+  max-width: 50ch;
+  text-wrap: pretty;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Work Sans", sans-serif;
+  min-height: 100dvh;
+  position: relative;
+}
